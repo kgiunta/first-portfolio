@@ -22,7 +22,7 @@ This can be found at https://github.com/kgiunta/first-portfolio or https://kgiun
 
 The below image is the screen shot of this website viewed on desktop.
 
-![alt text](/assets/images/screenshot-full-page.png)
+![screenshot of the website in use](./assets/images/readme.png)
 
 ## Credits
 
