@@ -33,7 +33,8 @@ nav {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-image: url(../images/header.jpg);
+  background-image: url("../images/body.jpg");
+  clip: rect(0, 100px, 200px, 0);
   color: #f7f7f7;
   display: flex;
   justify-content: space-between;
@@ -193,7 +194,7 @@ footer {
   padding: 5px;
   list-style-type: none;
   color: #f1f1f1;
-  background-color: #bbe1e6;
+  background-image: url("../images/body.jpg");
 }
 
 code-card .card-header {
@@ -202,7 +203,8 @@ code-card .card-header {
 }
 img:hover,
 img:hover .card-header {
-  box-shadow: inset 0px 0px 8px rgb(243, 243, 243), 0 0 15px rgb(rgb(4, 0, 230));
+  box-shadow: inset 0px 0px 100px rgb(243, 243, 243),
+    0 0 15px rgb(rgb(4, 0, 230));
 }
 /* creating display for mobile */
 @media screen and (max-width: 768px) {
@@ -229,7 +231,10 @@ img:hover .card-header {
     display: flex;
     flex-direction: column;
   }
-  #My-work,
+  #My-work {
+    display: flex;
+    flex-direction: column;
+  }
   #About-me {
     display: flex;
     flex-direction: column;
