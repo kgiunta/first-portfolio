@@ -276,4 +276,35 @@ img:hover .card-header {
     margin-right: auto;
     margin-left: auto;
   }
+  @import url("https://fonts.googleapis.com/css?family=Cairo");
+  body {
+    background-image: linear-gradient(
+      to right,
+      rgb(222, 238, 245),
+      rgb(255, 255, 255)
+    );
+  }
+}
+.titleOne {
+  font-family: "Cairo";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+h1,
+h2 {
+  background-image: url(https://media4.giphy.com/media/f5kBKQ6oDHE6cyLbVA/giphy.gif?cid=ecf05e47q73t5jec46ci7lwiqf4jj0i060zfmayzqgiyep79&rid=giphy.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 10px 0;
 }
